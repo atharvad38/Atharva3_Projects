@@ -30,7 +30,6 @@ while choice != 6:
         try:
              print("Dividing number 1 and number 2")
              print("division = ", num1/num2)
-
         except Exception as e:
              print(e)
     elif choice == 5:
