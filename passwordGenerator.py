@@ -1,6 +1,6 @@
 import random
 
-random_letters1 = ''.join(random.choices('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ',k=5))
+
 
 
 def easy_Password(n):
