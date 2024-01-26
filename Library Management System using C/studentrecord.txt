@@ -1,0 +1,11 @@
+Name     Number    Branch   Mail Id               SEM   Id
+
+Akshay	9133567893	IT	akshay2202@gmail.com		5	IT12009
+Atharva	8090063121	mech	omkar23@gmail.com		2	mech20214
+Rishi	7778966654	AIDS	rishi44@gmail.com		1	AIDS20322
+Sahil Kale	9654332456	IT	sahilkale55@gmail.com		1	IT29820
+Alok	8010069665	IT	alok2004@gmail.com		1	IT23337
+atharva	8010064668	AIDS	atharvad38@gmail.com		1	AIDS6061
+sandeep	8090045673	IT	sandeep33@gmail.com		1	IT15718
+atharva	809999998	IT	atharva3@gmail.com		1	IT11621
+Rohit	8045454545	CS	rohit221@vit.edu		4	CS11528
