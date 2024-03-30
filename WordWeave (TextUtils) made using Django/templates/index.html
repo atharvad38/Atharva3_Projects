@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block body %}
+<h1 style="margin:auto;text-align: center;margin-top: 50px;">Welcome to WordWeave</h1>
+<form action="/analyze" method="post"> {% csrf_token %}
+
+    <textarea name="text" style="height: 257px;width: 90%;margin: auto;margin-left: 65px;margin-top: 70px;"></textarea>
+    <br>
+    <input type="checkbox" name="removepunc" style="
+    margin-left: 75px;"> Remove Punctuations
+    <br>
+    <input type="checkbox" name="count" style="
+    margin-left: 75px;"> Count Characters
+    <br>
+        <input type="checkbox" name="upper" style="
+    margin-left: 75px;"> Convert to Uppercase
+    <br>
+
+        <input type="checkbox" name="extraspaces" style="
+    margin-left: 75px;"> Remove Extra Spaces
+    <br>
+
+
+        <input type="checkbox" name="capital" style="
+    margin-left: 75px;"> Capitalize
+    <br>
+
+        <input type="checkbox" name="wordcount" style="
+    margin-left: 75px;"> Count Words
+    <br>
+    <br>
+
+<!--    <button type="submit" style="-->
+<!--    margin-left: 75px;">Analyze Text</button>-->
+    <button type="submit" class="btn btn-primary" style="margin-left:75px">Analyze Text</button>
+</form>
+
+
+{% endblock body %}
